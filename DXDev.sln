@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXProject1", "DirectXProject1\DirectXProject1.vcxproj", "{E1D7203A-BD46-4ADC-BA8C-F28B9F2D1354}"
+	ProjectSection(ProjectDependencies) = postProject
+		{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5} = {887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXLib", "DXLib\DXLib.vcxproj", "{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXLibTests", "DXLibTests\DXLibTests.vcxproj", "{FCA2E5EB-11F3-4E7C-953A-0E9D0DE889BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D7203A-BD46-4ADC-BA8C-F28B9F2D1354}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1D7203A-BD46-4ADC-BA8C-F28B9F2D1354}.Debug|Win32.Build.0 = Debug|Win32
+		{E1D7203A-BD46-4ADC-BA8C-F28B9F2D1354}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D7203A-BD46-4ADC-BA8C-F28B9F2D1354}.Release|Win32.Build.0 = Release|Win32
+		{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}.Debug|Win32.Build.0 = Debug|Win32
+		{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}.Release|Win32.ActiveCfg = Release|Win32
+		{887C57EC-CCC3-4AEA-BF77-2ADE7055C4B5}.Release|Win32.Build.0 = Release|Win32
+		{FCA2E5EB-11F3-4E7C-953A-0E9D0DE889BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FCA2E5EB-11F3-4E7C-953A-0E9D0DE889BE}.Debug|Win32.Build.0 = Debug|Win32
+		{FCA2E5EB-11F3-4E7C-953A-0E9D0DE889BE}.Release|Win32.ActiveCfg = Release|Win32
+		{FCA2E5EB-11F3-4E7C-953A-0E9D0DE889BE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
